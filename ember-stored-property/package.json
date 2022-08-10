@@ -26,7 +26,11 @@
     "prepare": "yarn build"
   },
   "dependencies": {
-    "@embroider/addon-shim": "^1.0.0"
+    "@embroider/addon-shim": "^1.0.0",
+    "@glimmer/tracking": "^1.1.2"
+  },
+  "peerDependencies": {
+    "ember-source": ">= 4.1.0"
   },
   "devDependencies": {
     "@babel/core": "^7.17.0",
